@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Run with Docker
 
-Things you may want to cover:
+Build the image:
 
-* Ruby version
+```shell
+$ docker-compose build
+```
 
-* System dependencies
+Run the application:
 
-* Configuration
+```shell
+$ docker-compose up
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

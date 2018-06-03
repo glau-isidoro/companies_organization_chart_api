@@ -1,0 +1,17 @@
+Documentation:
+  Enabled: false
+Rails:
+  Enabled: true
+Style/FrozenStringLiteralComment:
+  Enabled: false
+AllCops:
+  TargetRubyVersion: 2.4.2
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'spec/rails_helper.rb'
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
